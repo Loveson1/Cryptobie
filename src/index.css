@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+
+
+
+
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #020618;
+  color: #ffffff;
+  width: 100%;
+  box-sizing: border-box;
+  
+
+
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 1px;
+  display: none;
+}
+
+
+
+
+
+
+
+/* Custom Utility Classes */
+ @layer utilities {
+  .card {
+    @apply bg-slate-900/50 border border-slate-800 rounded-lg hover:border-indigo-500/50 transition-colors;
+  }
+
+   .card-lg {
+    @apply bg-slate-900/50 border border-slate-800 rounded-2xl hover:border-indigo-500/50 transition-colors;
+  }
+.btn-primary {
+    @apply px-4 py-2 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-lg transition duration-200 cursor-pointer;
+  }
+  .btn-secondary {
+    @apply px-4 py-2 bg-slate-800 hover:bg-slate-700 text-gray-300 font-semibold rounded-lg transition duration-200;
+  }
+ .badge {
+    @apply    text-xs font-bold;
+  } 
+.badge-success {
+    @apply  bg-green-500/10 text-green-400 border px-1 rounded-full border-green-500/20;
+  }
+.badge-danger {
+    @apply  bg-red-500/10 text-red-400 border px-1 rounded-full border-red-500/20;
+  }
+  
+  .table-header {
+    @apply px-2 py-3 text-left text-xs  font-bold text-gray-400 uppercase tracking-wider border-b border-slate-800;
+  }
+
+  .table-cell {
+    @apply px-1 py-3 text-sm border-b border-slate-800/50;
+  }
+
+  .heading-lg {
+    @apply text-xl font-black text-white;
+  }
+
+  .heading-md {
+    @apply text-xl font-bold text-white;
+  }
+
+  .text-secondary {
+    @apply text-gray-400 text-sm;
+  }
+ }
+ 
+  
+
+
+ 
+
+
+
