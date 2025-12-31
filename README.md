@@ -7,6 +7,10 @@ The project was built to deepen my understanding of asynchronous programming, re
 
 
 Screenshots
+<img width="1920" height="1080" alt="Cryptobie - Google Chrome 12_31_2025 4_10_43 PM" src="https://github.com/user-attachments/assets/16139f8a-6364-4600-942e-71563a6390bc" />
+<img width="1920" height="1080" alt="Cryptobie - Google Chrome 12_31_2025 4_10_38 PM" src="https://github.com/user-attachments/assets/a0dad397-ff2f-4034-addc-ea8296742003" />
+<img width="1920" height="1080" alt="Cryptobie - Google Chrome 12_31_2025 4_11_43 PM" src="https://github.com/user-attachments/assets/0cc339cd-ff74-4820-8fbd-0e35000a40c3" />
+<img width="1920" height="1080" alt="Cryptobie - Google Chrome 12_31_2025 4_12_01 PM" src="https://github.com/user-attachments/assets/d950fe40-c065-43b2-aee7-5ca966d8dc70" />
 
 
 📌 Features
@@ -77,17 +81,14 @@ Improve my problem-solving and debugging skills
 
 Clone the repository:
 
-git clone https://github.com/your-username/cryptobie.git
+git clone https://github.com/Loveson1/cryptobie.git
 
 
 Open the project folder:
 
 cd cryptobie
 
-
 Open index.html in your browser or use a local server.
-
-
 
 
 
